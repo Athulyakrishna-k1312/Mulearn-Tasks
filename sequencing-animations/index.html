@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotionFlow - Animation Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <header>
+            <p class="tag">JAVASCRIPT ANIMATION</p>
+            <h1>MotionFlow</h1>
+            <p class="subtitle">
+                Watch a simple ball perform a sequence of animations.
+            </p>
+        </header>
+
+        <section class="status">
+            <div>
+                <span>Current Step</span>
+                <h3 id="statusText">Ready to start</h3>
+            </div>
+            <div>
+                <span>Progress</span>
+                <h3 id="progressText">0 / 5</h3>
+            </div>
+        </section>
+
+        <section class="animation-area">
+            <div id="ball" class="ball"></div>
+        </section>
+
+        <div class="progress-container">
+            <div id="progressBar"></div>
+        </div>
+
+        <div class="controls">
+            <button id="playBtn">▶ Play Animation</button>
+            <button id="resetBtn">↻ Reset</button>
+        </div>
+
+        <section class="steps">
+            <h2>Animation Sequence</h2>
+
+            <ul>
+                <li id="step1">01. Move Right</li>
+                <li id="step2">02. Bounce</li>
+                <li id="step3">03. Change Colour</li>
+                <li id="step4">04. Grow Bigger</li>
+                <li id="step5">05. Rotate</li>
+            </ul>
+        </section>
+
+        <footer>
+            Built using HTML, CSS and JavaScript
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
